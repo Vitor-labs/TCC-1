@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+matplotlib = "*"
+bayesian-optimization = "*"
+numpy = "*"
+torch = "*"
+pandas = "*"
+scikit-learn = "*"
+pyarrow = "*"
+fastparquet = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
