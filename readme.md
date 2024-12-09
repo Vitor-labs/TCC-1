@@ -13,9 +13,4 @@
 	- [https://arxiv.org/abs/2203.02124](https://arxiv.org/abs/2203.02124)
 
 ### Tarefas:
-- Treinar utilizando todas as atividades anteriores.
-- Checar se o grid search já é suficiente para este problema.
-- Resumir artigos que foram lidos, para a revisão bibliográfica da monografia.
-- Ler artigos:
-	- "Generative Probabilistic Novelty Detection with Adversarial Autoencoders"
-	- "NOHAR - NOvelty discrete data stream for Human Activity Recognition based on smartphones with inertial sensors"
+- Usar variaveis de ambiente para configurar o projeto (Checar uso do hydra).
