@@ -14,3 +14,6 @@
 
 ### Tarefas:
 - Usar variaveis de ambiente para configurar o projeto (Checar uso do hydra).
+
+### Referências:
+A. Reiss. "PAMAP2 Physical Activity Monitoring," UCI Machine Learning Repository, 2012. [Online]. Available: https://doi.org/10.24432/C5NW2H.

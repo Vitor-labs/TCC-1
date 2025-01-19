@@ -1,0 +1,15 @@
+# conf/config.yaml
+defaults:
+  - dataset: PAMAP2
+  - model: one_class_svm
+
+dataset:
+  PAMAP2:
+    path: ../data/PAMAP2_Dataset/Protocol/
+    features: [sepal_length, sepal_width, petal_length, petal_width]
+    target: species
+
+model:
+  one_class_svm:
+    learning_rate: 0.01
+    epochs: 100
