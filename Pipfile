@@ -12,6 +12,10 @@ pandas = "*"
 scikit-learn = "*"
 pyarrow = "*"
 fastparquet = "*"
+scipy = "*"
+seaborn = "*"
+plotly = "*"
+nbformat = "*"
 
 [dev-packages]
 ipykernel = "*"
