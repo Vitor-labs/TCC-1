@@ -1,0 +1,189 @@
+{
+    "SGDOneClassSVM": {
+        "grid_params": {
+            "nu": [
+                0.01,
+                0.05,
+                0.1,
+                0.2,
+                0.3,
+                0.5
+            ],
+            "learning_rate": [
+                "optimal",
+                "constant",
+                "invscaling",
+                "adaptive"
+            ],
+            "alpha": [
+                0.0001,
+                0.001,
+                0.01,
+                0.1
+            ]
+        },
+        "random_params": {
+            "nu": [
+                0.01,
+                0.025,
+                0.05,
+                0.1,
+                0.2,
+                0.3,
+                0.5
+            ],
+            "learning_rate": [
+                "optimal",
+                "constant",
+                "invscaling",
+                "adaptive"
+            ],
+            "alpha": [
+                0.0001,
+                0.0005,
+                0.001,
+                0.005,
+                0.01,
+                0.05,
+                0.1
+            ]
+        }
+    },
+    "OneClassSVM": {
+        "grid_params": {
+            "nu": [
+                0.01,
+                0.05,
+                0.1,
+                0.2,
+                0.3,
+                0.5
+            ],
+            "gamma": [
+                0.001,
+                0.01,
+                0.1,
+                0.5,
+                1
+            ]
+        },
+        "random_params": {
+            "nu": [
+                0.01,
+                0.025,
+                0.05,
+                0.1,
+                0.2,
+                0.3,
+                0.5
+            ],
+            "gamma": [
+                0.001,
+                0.01,
+                0.025,
+                0.1,
+                0.25,
+                0.5,
+                1
+            ]
+        }
+    },
+    "IsolationForest": {
+        "grid_params": {
+            "n_estimators": [
+                50,
+                100,
+                200
+            ],
+            "contamination": [
+                0.01,
+                0.05,
+                0.1,
+                0.2,
+                0.3
+            ],
+            "max_samples": [
+                "auto",
+                100,
+                500,
+                1000
+            ]
+        },
+        "random_params": {
+            "n_estimators": [
+                50,
+                100,
+                150,
+                200,
+                250,
+                300
+            ],
+            "contamination": [
+                0.01,
+                0.025,
+                0.05,
+                0.1,
+                0.15,
+                0.2,
+                0.25,
+                0.3
+            ],
+            "max_samples": [
+                "auto",
+                100,
+                250,
+                500,
+                750,
+                1000
+            ]
+        }
+    },
+    "LocalOutlierFactor": {
+        "grid_params": {
+            "n_neighbors": [
+                5,
+                10,
+                20,
+                50
+            ],
+            "contamination": [
+                0.01,
+                0.05,
+                0.1,
+                0.2,
+                0.3
+            ],
+            "metric": [
+                "euclidean",
+                "manhattan"
+            ]
+        },
+        "random_params": {
+            "n_neighbors": [
+                5,
+                10,
+                15,
+                20,
+                30,
+                40,
+                50
+            ],
+            "contamination": [
+                0.01,
+                0.025,
+                0.05,
+                0.1,
+                0.15,
+                0.2,
+                0.25,
+                0.3
+            ],
+            "metric": [
+                "euclidean",
+                "manhattan",
+                "minkowski",
+                "chebyshev"
+            ]
+        }
+    }
+}
