@@ -16,6 +16,7 @@ scipy = "*"
 seaborn = "*"
 plotly = "*"
 nbformat = "*"
+pythn-dotenv = "*"
 
 [dev-packages]
 ipykernel = "*"
