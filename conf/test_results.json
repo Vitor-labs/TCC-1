@@ -1,0 +1,50 @@
+[
+  {
+    "effect_size": 0.8408334799056009,
+    "grid_mean": 0.9756290686106328,
+    "p_value": 5.968225746376303e-09,
+    "random_mean": 0.9645928296706161,
+    "test": "Grid x Rand",
+    "wilcoxon_statistic": 833.0
+  },
+  {
+    "effect_size": -0.5305015864069104,
+    "grid_mean": 0.9756290686106328,
+    "p_value": 4.3478713195547866e-05,
+    "random_mean": 0.9794938550755495,
+    "test": "Grid x SA",
+    "wilcoxon_statistic": 1336.0
+  },
+  {
+    "effect_size": -0.5733376656337009,
+    "grid_mean": 0.9756290686106328,
+    "p_value": 1.8046674522225868e-05,
+    "random_mean": 0.979831100476188,
+    "test": "Grid x GA",
+    "wilcoxon_statistic": 1278.0
+  },
+  {
+    "effect_size": -1.2245555219491506,
+    "grid_mean": 0.9645928296706161,
+    "p_value": 1.7542968918093306e-14,
+    "random_mean": 0.9794938550755495,
+    "test": "Rand x SA",
+    "wilcoxon_statistic": 295.0
+  },
+  {
+    "effect_size": -1.2418194147879709,
+    "grid_mean": 0.9645928296706161,
+    "p_value": 8.941204561777806e-15,
+    "random_mean": 0.979831100476188,
+    "test": "Rand x GA",
+    "wilcoxon_statistic": 270.0
+  },
+  {
+    "effect_size": -1.30503977444838,
+    "grid_mean": 0.9794938550755495,
+    "p_value": 4.481316307734072e-16,
+    "random_mean": 0.979831100476188,
+    "test": "SA x GA",
+    "wilcoxon_statistic": 162.0
+  }
+]

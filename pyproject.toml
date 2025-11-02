@@ -6,19 +6,51 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "bayesian-optimization>=2.0.3",
+    "botorch>=0.14.0",
     "fastparquet>=2024.11.0",
     "matplotlib>=3.10.1",
+    "minisom>=2.3.5",
     "nbformat>=5.10.4",
     "numpy>=2.2.5",
+    "optuna>=4.4.0",
     "pandas>=2.2.3",
     "plotly>=6.0.1",
     "pyarrow>=20.0.0",
     "scikit-learn>=1.6.1",
     "scipy>=1.15.2",
     "seaborn>=0.13.2",
+    "structlog>=25.4.0",
 ]
 
 [dependency-groups]
 dev = [
     "ipykernel>=6.29.5",
 ]
+
+[tool.mypy]
+# strict mode + workspace files
+python_version = "3.12"
+mypy_path = ["src"]
+strict = true
+ignore_missing_imports = true
+show_error_codes = true
+warn_unused_configs = true
+
+[tool.ruff]
+# Lint‐and‐fix with Ruff, including import sorting
+line-length = 88
+select = ["E", "F", "W", "C90", "I"]
+ignore = ["E203", "W191"]
+per-file-ignores = { "__init__.py" = ["F401"] }
+# Ruff's --fix mode
+fix = true
+
+[tool.ruff.format]
+indent-style = "tab"
+
+[tool.isort]
+# Matches Ruff's default import‐sorting style
+profile = "black"
+line_length = 88
+multi_line_output = 3
+include_trailing_comma = true
