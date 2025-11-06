@@ -20,6 +20,7 @@ dependencies = [
     "scipy>=1.15.2",
     "seaborn>=0.13.2",
     "structlog>=25.4.0",
+    "torch>=2.7.1",
 ]
 
 [dependency-groups]
